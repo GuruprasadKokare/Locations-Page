@@ -13,7 +13,7 @@ body{
   
   }
   
-  
+
 
   .input-field {
     max-width: 120%;
@@ -70,7 +70,7 @@ body{
     background-color: #1a36c3;
     text-transform: uppercase;
     font-weight: 600;
-    margin: 10px 0;
+    /* margin: 10px 0; */
     transition: all 0.5s;
     cursor: pointer;
     justify-content: center;
@@ -128,7 +128,7 @@ body{
     /* transform: translateY(-50%); */
     border-radius: 50%;
     background-attachment: fixed;
-    
+    overflow: hidden;
   
   }
 
@@ -161,7 +161,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
-    margin-top: 1%;
+    margin-top: 4%;
     width: 48%;
   }
 
@@ -182,12 +182,9 @@ body{
 
   @media(max-width:552px) {
     .hide {
-      position: absolute;
-    float: left;
-    width: 30%;
     margin-top: -4%;
     }
-    
+
   }
 
   .nav-list{
@@ -203,34 +200,34 @@ body{
   .hide{
     text-align: center;
   }
-.navbar-brand{
+/* .navbar-brand{
   text-align: center;
   align-items: center;
   align-content: center;
-  margin-right: auto;
-  margin-left: 34%;
-  
-}
+} */
 
 @media (max-width:890px) {
   .hide{
-    position: absolute;
     float: right;
-    width: 30%;
-    margin-top: -4%;
-    
+    width: 45%;
+    margin-top: -2%;
+    margin-right: 25%;
   }
   
 }
 
 @media (min-width:890px) {
   .hide{
-    position: absolute;
     float: right;
     width: 18%;
     margin-top: -2%;
-    margin-left:5% ;
-    
+    width:45%;
+    margin-right: 35%;
   }
   
+}
+
+.navbar-brand{
+  margin-right: auto;
+  margin-left: auto;
 }
